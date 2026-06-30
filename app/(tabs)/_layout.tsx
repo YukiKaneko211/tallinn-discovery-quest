@@ -1,4 +1,4 @@
-import { Home } from 'lucide-react-native';
+import { MapPin, Image as ImageIcon, BookMarked } from 'lucide-react-native';
 import { Tabs } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useThemeColor } from 'heroui-native';
@@ -21,13 +21,14 @@ export default function TabLayout() {
         screenOptions={{
           headerStyle: { backgroundColor: background },
           headerTintColor: foreground,
-          headerTitleStyle: { color: foreground },
+          headerTitleStyle: { color: foreground, fontFamily: 'Inter_700Bold' },
           headerShadowVisible: false,
           sceneStyle: { backgroundColor: background },
           tabBarStyle: {
             backgroundColor: background,
             borderTopColor: border,
           },
+          tabBarLabelStyle: { fontFamily: 'Inter_500Medium', fontSize: 11 },
           tabBarActiveTintColor: accent,
           tabBarInactiveTintColor: muted,
         }}
@@ -35,8 +36,22 @@ export default function TabLayout() {
         <Tabs.Screen
           name="index"
           options={{
-            title: 'Home',
-            tabBarIcon: ({ color, size }) => <Home color={color} size={size ?? 24} />,
+            title: 'Explore',
+            tabBarIcon: ({ color, size }) => <MapPin color={color} size={size ?? 24} />,
+          }}
+        />
+        <Tabs.Screen
+          name="souvenir"
+          options={{
+            title: 'Souvenir',
+            tabBarIcon: ({ color, size }) => <ImageIcon color={color} size={size ?? 24} />,
+          }}
+        />
+        <Tabs.Screen
+          name="passport"
+          options={{
+            title: 'Passport',
+            tabBarIcon: ({ color, size }) => <BookMarked color={color} size={size ?? 24} />,
           }}
         />
       </Tabs>

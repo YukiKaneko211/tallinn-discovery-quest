@@ -163,3 +163,58 @@
 */
 
 @source './node_modules/heroui-native/lib';
+
+/* ---------------------------------------------------------------------------
+ * Tallinn Stamp Rally theme
+ * Base: White (#FFFFFF). Accent: Tallinn Blue (#0072CE).
+ * ------------------------------------------------------------------------- */
+@layer theme {
+  :root {
+    --white: oklch(100% 0 0);
+    --eclipse: oklch(0.2103 0.0059 285.89);
+    --snow: oklch(0.9911 0 0);
+
+    /* Base — crisp white */
+    --background: oklch(100% 0 0);
+    --foreground: oklch(0.21 0.02 256);
+
+    --surface: var(--white);
+    --surface-foreground: var(--foreground);
+
+    --overlay: var(--white);
+    --overlay-foreground: var(--foreground);
+
+    --muted: oklch(0.55 0.02 256);
+
+    --default: oklch(0.96 0.008 247);
+    --default-foreground: var(--foreground);
+
+    /* Tallinn Blue #0072CE */
+    --accent: oklch(0.5817 0.1799 254.6);
+    --accent-foreground: var(--white);
+
+    --field-background: oklch(0.97 0.006 247);
+    --field-foreground: var(--foreground);
+    --field-placeholder: var(--muted);
+
+    --success: oklch(0.7329 0.1935 150.81);
+    --success-foreground: var(--white);
+
+    --warning: oklch(0.7819 0.1585 72.33);
+    --warning-foreground: var(--eclipse);
+
+    --danger: oklch(0.6532 0.2328 25.74);
+    --danger-foreground: var(--white);
+
+    --border: oklch(0.92 0.005 247);
+    --separator: oklch(0.92 0.005 247);
+    --focus: var(--accent);
+    --link: var(--accent);
+  }
+}
+
+@theme {
+  --color-accent-soft: oklch(0.95 0.03 254.6);
+  --color-gold: oklch(0.8 0.13 85);
+  --color-gold-soft: oklch(0.95 0.05 85);
+}

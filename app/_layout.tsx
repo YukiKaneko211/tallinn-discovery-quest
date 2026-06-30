@@ -13,7 +13,7 @@ import Constants, { ExecutionEnvironment } from 'expo-constants';
 import { Platform } from 'react-native';
 import { useEffect } from 'react';
 import * as DevClient from 'expo-dev-client';
-import { HeroUINativeProvider } from 'heroui-native';
+import { HeroUINativeProvider, useThemeColor } from 'heroui-native';
 import { Uniwind } from 'uniwind';
 import {
   ErrorBoundary as ExpoErrorBoundary,
@@ -135,10 +135,28 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <HeroUINativeProvider>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ title: 'Habits', headerShown: false }} />
-        </Stack>
+        <RootStack />
       </HeroUINativeProvider>
     </GestureHandlerRootView>
+  );
+}
+
+function RootStack() {
+  const [background, foreground] = useThemeColor(['background', 'foreground']);
+  return (
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="landmark/[id]"
+        options={{
+          title: 'Check-in',
+          headerStyle: { backgroundColor: background },
+          headerTintColor: foreground,
+          headerTitleStyle: { color: foreground, fontFamily: 'Inter_700Bold' },
+          headerShadowVisible: false,
+          contentStyle: { backgroundColor: background },
+        }}
+      />
+    </Stack>
   );
 }
