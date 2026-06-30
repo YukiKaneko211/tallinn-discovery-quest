@@ -4,9 +4,9 @@
 
 ## Project info
 
-**Preview URL**: https://app.bilt.me/project/{PROJECT_ID}/preview
+**Preview URL**: https://app.bilt.me/project/14e220a5-84b7-45dc-8a41-90f817ebf679/preview
 
-**Project ID**: `{PROJECT_ID}`
+**Project ID**: `14e220a5-84b7-45dc-8a41-90f817ebf679`
 
 ## How can I edit this app?
 
@@ -14,7 +14,7 @@ There are several ways of editing your application.
 
 **Use Bilt**
 
-Simply visit your [Bilt Project](https://app.bilt.me/agent/{PROJECT_ID}) and start sending messages. Describe what you want to change, add, or fix in natural language.
+Simply visit your [Bilt Project](https://app.bilt.me/agent/14e220a5-84b7-45dc-8a41-90f817ebf679) and start sending messages. Describe what you want to change, add, or fix in natural language.
 
 Changes made via Bilt are instant - just send a message and your app updates.
 
@@ -73,7 +73,7 @@ All generated automatically by Bilt from your natural language instructions.
 
 **Option 1: Instant Preview (Recommended)**
 
-Open the preview URL in your browser: `https://app.bilt.me/project/{PROJECT_ID}/preview`
+Open the preview URL in your browser: `https://app.bilt.me/project/14e220a5-84b7-45dc-8a41-90f817ebf679/preview`
 
 Scan the QR code with Expo Go ([iOS](https://apps.apple.com/app/expo-go/id982107779) | [Android](https://play.google.com/store/apps/details?id=host.exp.exponent)) on your phone.
 
@@ -88,7 +88,7 @@ Then scan the QR code with Expo Go.
 
 ## How can I deploy this project?
 
-Go to your [Bilt Project](https://app.bilt.me/agent/{PROJECT_ID}), after that go to Settings -> App Store.
+Go to your [Bilt Project](https://app.bilt.me/agent/14e220a5-84b7-45dc-8a41-90f817ebf679), after that go to Settings -> App Store.
 
 ### Deploy with Bilt
 
@@ -100,7 +100,7 @@ Bilt will handle the build and provide you with download links or submission-rea
 
 **Via Bilt (Easiest)**
 
-Visit your [Bilt Project](https://app.bilt.me/agent/{PROJECT_ID}) and send a message describing what you want:
+Visit your [Bilt Project](https://app.bilt.me/agent/14e220a5-84b7-45dc-8a41-90f817ebf679) and send a message describing what you want:
 
 - "Add a dark mode toggle"
 - "Change the button color to blue"
