@@ -1,0 +1,38 @@
+/* Design tokens — generated from the PRD "Global" token set.
+   Source of truth: tokens.json (same values, kept in sync). */
+:root {
+  /* colors */
+  --color-weak: #e0e0e0;
+  --color-inactive: #808080;
+  --color-base: #ffffff;
+  --color-accent: #0072ce;
+  --color-complete: #9eff7f;
+  --color-text: rgb(0, 0, 0);
+  --color-error: rgb(255, 0, 0);
+
+  /* radius */
+  --radius-default: 10px;
+
+  /* typography */
+  --font-main: 'M PLUS Rounded 1c', 'Hiragino Maru Gothic ProN', 'Trebuchet MS', system-ui,
+    -apple-system, sans-serif;
+
+  /* derived (not tokens — layout scale, larger for elderly users per PRD remarks) */
+  --fs-xs: 13px;
+  --fs-sm: 15px;
+  --fs-md: 17px;
+  --fs-lg: 20px;
+  --fs-xl: 24px;
+  --fs-2xl: 30px;
+
+  --menu-h: 68px;
+  --sheet-handle-h: 26px;
+
+  --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-2: 0 4px 16px rgba(0, 0, 0, 0.16);
+  --shadow-3: 0 -4px 20px rgba(0, 0, 0, 0.14);
+
+  --accent-dark: #005ba6;
+  --complete-dark: #62d63c;
+  --surface-dim: #f4f6f8;
+}

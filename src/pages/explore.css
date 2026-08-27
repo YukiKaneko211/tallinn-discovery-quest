@@ -1,0 +1,128 @@
+.explore {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.explore__head {
+  flex: none;
+  padding: 10px 14px 8px;
+  background: var(--color-base);
+  border-bottom: 1px solid var(--color-weak);
+}
+
+.explore__title {
+  margin: 0 0 6px;
+  font-size: var(--fs-lg);
+  font-weight: 800;
+  text-align: center;
+}
+
+.explore__stats {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.explore__stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+
+.explore__stat svg:first-child {
+  color: var(--color-accent);
+}
+
+.explore__stat span {
+  color: #333;
+}
+
+.explore__stat strong {
+  font-size: var(--fs-md);
+}
+
+.explore__map {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+
+.explore__leaflet {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.explore__gpsnote {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  z-index: 600;
+  margin: 0;
+  padding: 7px 10px;
+  border-radius: var(--radius-default);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow-1);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: #6a4b00;
+  text-align: center;
+}
+
+.explore__sim {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 600;
+}
+
+.explore__sim select {
+  border: 1px solid var(--color-weak);
+  border-radius: var(--radius-default);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 7px 9px;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  box-shadow: var(--shadow-1);
+  max-width: 190px;
+}
+
+.mapicon {
+  background: none;
+  border: 0;
+}
+
+.mapicon__pin {
+  display: block;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.35));
+}
+
+.mapicon__me {
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50% 50% 50% 6px;
+  transform: rotate(-45deg);
+  background: var(--color-accent);
+  border: 3px solid #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* leaflet's own panes must stay under our sheet / menu */
+.leaflet-pane,
+.leaflet-control {
+  z-index: 1 !important;
+}
+
+.leaflet-container {
+  font-family: var(--font-main);
+  /* visible when tiles cannot be fetched (offline / blocked network) */
+  background:
+    repeating-linear-gradient(0deg, #e8ece7 0 1px, transparent 1px 46px),
+    repeating-linear-gradient(90deg, #e8ece7 0 1px, transparent 1px 46px),
+    #f3f5f1;
+}

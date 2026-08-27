@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="St. Olaf's Church">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9e2ff"/><stop offset="100%" stop-color="#f0f7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="330" cy="70" r="34" fill="#fff" opacity=".55"/>
+  <g opacity=".5" fill="#ffffff">
+    <ellipse cx="90" cy="90" rx="46" ry="20"/><ellipse cx="130" cy="80" rx="34" ry="16"/>
+  </g>
+  
+    <rect x="90" y="210" width="220" height="140" fill="#e8e2d4"/>
+    <path d="M80 210 L200 165 L320 210 Z" fill="#2d6a4f"/>
+    <rect x="175" y="80" width="50" height="135" fill="#e8e2d4"/>
+    <path d="M165 82 L200 0 L235 82 Z" fill="#2d6a4f"/>
+    <g fill="#fff" opacity=".7">
+      <path d="M118 250 h30 v60 h-30 z" />
+      <path d="M258 250 h30 v60 h-30 z" />
+      <path d="M186 250 h28 v60 h-28 z" />
+    </g>
+  <rect y="350" width="400" height="50" fill="#7a8b6f"/>
+  <rect y="350" width="400" height="8" fill="#93a487"/>
+</svg>

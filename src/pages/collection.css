@@ -1,0 +1,91 @@
+.cmenu__tiles {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+}
+
+.ctile {
+  position: relative;
+  height: 116px;
+  border-radius: 14px;
+  border: 3px solid var(--color-accent);
+  background: var(--color-base);
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ctile__pattern {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  gap: 6px;
+  color: var(--color-accent);
+  opacity: 0.55;
+  padding: 6px;
+}
+
+.ctile__label {
+  position: relative;
+  font-size: var(--fs-2xl);
+  font-weight: 800;
+  color: var(--color-accent);
+  text-shadow:
+    -3px -3px 0 #fff,
+    3px -3px 0 #fff,
+    -3px 3px 0 #fff,
+    3px 3px 0 #fff,
+    0 0 10px #fff;
+  line-height: 1;
+}
+
+.ctile__value {
+  position: relative;
+  font-size: var(--fs-sm);
+  font-weight: 800;
+  color: var(--color-accent);
+  text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+}
+
+/* ---------------------------------------------------- grouped-by-spot list */
+.cgroup {
+  margin-bottom: 18px;
+}
+
+.cgroup__head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+  width: 100%;
+  text-align: left;
+}
+
+.cgroup__title {
+  font-weight: 800;
+  font-size: var(--fs-md);
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.cgroup__count {
+  font-size: var(--fs-sm);
+  color: var(--color-inactive);
+  font-weight: 700;
+}
+
+.cpoints {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 800;
+  font-size: var(--fs-sm);
+  color: var(--color-accent);
+}

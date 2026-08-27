@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Fat Margaret Tower stamp">
+  <defs>
+    <path id="arcTop" d="M 48 150 A 102 102 0 0 1 252 150"/>
+    <path id="arcBot" d="M 22 150 A 128 128 0 0 0 278 150"/>
+    <clipPath id="inner"><circle cx="150" cy="150" r="86"/></clipPath>
+    <linearGradient id="isky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cde8f5"/><stop offset="100%" stop-color="#f2fbff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="146" fill="#ffffff"/>
+  <circle cx="150" cy="150" r="142" fill="none" stroke="#0072ce" stroke-width="8"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#0072ce" stroke-width="6"/>
+  <g clip-path="url(#inner)">
+    <rect x="60" y="60" width="180" height="180" fill="url(#isky)"/>
+    <g transform="translate(150 240) scale(0.44) translate(-200 -350)">
+    <path d="M120 350 v-160 a80 80 0 0 1 160 0 v160 z" fill="#e0d5c1"/>
+    <path d="M104 196 L200 110 L296 196 Z" fill="#7a3b2e"/>
+    <rect x="60" y="290" width="60" height="60" fill="#e0d5c1" opacity=".8"/>
+    <rect x="280" y="290" width="60" height="60" fill="#e0d5c1" opacity=".8"/>
+    <g fill="#fff" opacity=".7">
+      <rect x="150" y="230" width="24" height="40" rx="12"/>
+      <rect x="226" y="230" width="24" height="40" rx="12"/>
+      <rect x="188" y="290" width="24" height="60" rx="12"/>
+    </g></g>
+    <rect x="60" y="212" width="180" height="30" fill="#7a8b6f"/>
+  </g>
+  <g fill="#0072ce" font-family="'M PLUS Rounded 1c', 'Trebuchet MS', sans-serif" font-weight="800" font-size="28" letter-spacing="2">
+    <text text-anchor="middle"><textPath href="#arcTop" startOffset="50%">FAT MARGARET</textPath></text>
+    <text text-anchor="middle"><textPath href="#arcBot" startOffset="50%">TOWER</textPath></text>
+  </g>
+  <circle cx="42" cy="150" r="5" fill="#0072ce"/><circle cx="258" cy="150" r="5" fill="#0072ce"/>
+</svg>

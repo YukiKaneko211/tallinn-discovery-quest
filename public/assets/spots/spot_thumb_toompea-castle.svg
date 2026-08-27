@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Toompea Castle">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe6ff"/><stop offset="100%" stop-color="#f2f8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="330" cy="70" r="34" fill="#fff" opacity=".55"/>
+  <g opacity=".5" fill="#ffffff">
+    <ellipse cx="90" cy="90" rx="46" ry="20"/><ellipse cx="130" cy="80" rx="34" ry="16"/>
+  </g>
+  
+    <rect x="60" y="200" width="280" height="150" fill="#eadfcb"/>
+    <rect x="250" y="90" width="72" height="260" fill="#eadfcb"/>
+    <path d="M242 92 L286 30 L330 92 Z" fill="#8c4a3a"/>
+    <g fill="#eadfcb">
+      <rect x="60" y="180" width="26" height="24"/><rect x="112" y="180" width="26" height="24"/>
+      <rect x="164" y="180" width="26" height="24"/><rect x="216" y="180" width="26" height="24"/>
+    </g>
+    <g fill="#fff" opacity=".7">
+      <rect x="100" y="245" width="24" height="40" rx="12"/>
+      <rect x="160" y="245" width="24" height="40" rx="12"/>
+      <rect x="274" y="150" width="24" height="36" rx="12"/>
+    </g>
+  <rect y="350" width="400" height="50" fill="#7a8b6f"/>
+  <rect y="350" width="400" height="8" fill="#93a487"/>
+</svg>

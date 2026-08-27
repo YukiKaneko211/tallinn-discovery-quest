@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Great Guild Hall">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfe6ff"/><stop offset="100%" stop-color="#f5f7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="330" cy="70" r="34" fill="#fff" opacity=".55"/>
+  <g opacity=".5" fill="#ffffff">
+    <ellipse cx="90" cy="90" rx="46" ry="20"/><ellipse cx="130" cy="80" rx="34" ry="16"/>
+  </g>
+  
+    <path d="M90 350 V150 L200 70 L310 150 V350 Z" fill="#f0e6d6"/>
+    <path d="M80 152 L200 62 L320 152 Z" fill="#3a4a7a"/>
+    <g fill="#fff" opacity=".7">
+      <rect x="120" y="200" width="30" height="44" rx="6"/>
+      <rect x="185" y="200" width="30" height="44" rx="6"/>
+      <rect x="250" y="200" width="30" height="44" rx="6"/>
+    </g>
+    <rect x="170" y="280" width="60" height="70" rx="6" fill="#5a3f28"/>
+  <rect y="350" width="400" height="50" fill="#7a8b6f"/>
+  <rect y="350" width="400" height="8" fill="#93a487"/>
+</svg>

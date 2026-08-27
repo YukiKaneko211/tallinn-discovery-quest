@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Niguliste Church stamp">
+  <defs>
+    <path id="arcTop" d="M 48 150 A 102 102 0 0 1 252 150"/>
+    <path id="arcBot" d="M 22 150 A 128 128 0 0 0 278 150"/>
+    <clipPath id="inner"><circle cx="150" cy="150" r="86"/></clipPath>
+    <linearGradient id="isky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d6e8d8"/><stop offset="100%" stop-color="#f4fbf5"/>
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="146" fill="#ffffff"/>
+  <circle cx="150" cy="150" r="142" fill="none" stroke="#0072ce" stroke-width="8"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#0072ce" stroke-width="6"/>
+  <g clip-path="url(#inner)">
+    <rect x="60" y="60" width="180" height="180" fill="url(#isky)"/>
+    <g transform="translate(150 240) scale(0.44) translate(-200 -350)">
+    <rect x="90" y="210" width="220" height="140" fill="#ece5d6"/>
+    <path d="M80 210 L200 165 L320 210 Z" fill="#3d5a45"/>
+    <rect x="175" y="80" width="50" height="135" fill="#ece5d6"/>
+    <path d="M165 82 L200 0 L235 82 Z" fill="#3d5a45"/>
+    <g fill="#fff" opacity=".7">
+      <path d="M118 250 h30 v60 h-30 z" />
+      <path d="M258 250 h30 v60 h-30 z" />
+      <path d="M186 250 h28 v60 h-28 z" />
+    </g></g>
+    <rect x="60" y="212" width="180" height="30" fill="#7a8b6f"/>
+  </g>
+  <g fill="#0072ce" font-family="'M PLUS Rounded 1c', 'Trebuchet MS', sans-serif" font-weight="800" font-size="28" letter-spacing="2">
+    <text text-anchor="middle"><textPath href="#arcTop" startOffset="50%">NIGULISTE</textPath></text>
+    <text text-anchor="middle"><textPath href="#arcBot" startOffset="50%">CHURCH</textPath></text>
+  </g>
+  <circle cx="42" cy="150" r="5" fill="#0072ce"/><circle cx="258" cy="150" r="5" fill="#0072ce"/>
+</svg>

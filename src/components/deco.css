@@ -1,0 +1,123 @@
+.decogrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.decocard__btn {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 1.1;
+  border-radius: var(--radius-default);
+  background: var(--surface-dim);
+  border: 1px solid var(--color-weak);
+  overflow: hidden;
+}
+
+.decocard__btn img {
+  width: 84%;
+  height: 84%;
+  object-fit: contain;
+}
+
+.decocard__btn--locked img {
+  opacity: 0.5;
+}
+
+.decocard__lock {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  color: var(--color-accent);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  padding: 3px;
+  display: grid;
+  place-items: center;
+}
+
+.decocard__meta {
+  padding: 4px 2px 0;
+}
+
+.decocard__name {
+  display: block;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.decocard__pts {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: var(--fs-xs);
+  color: #444;
+  font-weight: 700;
+}
+
+.decopop__img {
+  width: 108px;
+  height: 96px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.decopop__calc {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+/* --------------------------------------------------- Collection deco rows */
+.decorow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--color-weak);
+  border-radius: var(--radius-default);
+  background: var(--color-base);
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.decorow__img {
+  width: 64px;
+  height: 56px;
+  object-fit: contain;
+  flex: none;
+}
+
+.decorow--locked .decorow__img {
+  opacity: 0.5;
+}
+
+.decorow__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.decorow__name {
+  font-weight: 800;
+  font-size: var(--fs-md);
+}
+
+.decorow__pts {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--fs-sm);
+  color: #444;
+  font-weight: 700;
+}
+
+.decorow__lock {
+  color: var(--color-accent);
+  flex: none;
+}

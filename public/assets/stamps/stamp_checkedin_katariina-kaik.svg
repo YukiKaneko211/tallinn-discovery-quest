@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="St. Catherine's Passage stamp">
+  <defs>
+    <path id="arcTop" d="M 48 150 A 102 102 0 0 1 252 150"/>
+    <path id="arcBot" d="M 22 150 A 128 128 0 0 0 278 150"/>
+    <clipPath id="inner"><circle cx="150" cy="150" r="86"/></clipPath>
+    <linearGradient id="isky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8ddc8"/><stop offset="100%" stop-color="#faf5ea"/>
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="146" fill="#ffffff"/>
+  <circle cx="150" cy="150" r="142" fill="none" stroke="#0072ce" stroke-width="8"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#0072ce" stroke-width="6"/>
+  <g clip-path="url(#inner)">
+    <rect x="60" y="60" width="180" height="180" fill="url(#isky)"/>
+    <g transform="translate(150 240) scale(0.44) translate(-200 -350)">
+    <rect x="40" y="90" width="320" height="260" fill="#ded2bd"/>
+    <path d="M120 350 V210 a80 80 0 0 1 160 0 v140 z" fill="#3a2f22"/>
+    <path d="M120 350 V212 a80 80 0 0 1 160 0 v138 z" fill="#6b563c" opacity=".55"/>
+    <g stroke="#6b5136" stroke-width="6" opacity=".55" fill="none">
+      <path d="M40 150 H360"/><path d="M40 120 H360"/>
+    </g>
+    <circle cx="200" cy="250" r="26" fill="#ffd166" opacity=".55"/></g>
+    <rect x="60" y="212" width="180" height="30" fill="#7a8b6f"/>
+  </g>
+  <g fill="#0072ce" font-family="'M PLUS Rounded 1c', 'Trebuchet MS', sans-serif" font-weight="800" font-size="21" letter-spacing="2">
+    <text text-anchor="middle"><textPath href="#arcTop" startOffset="50%">ST. CATHERINE'S</textPath></text>
+    <text text-anchor="middle"><textPath href="#arcBot" startOffset="50%">PASSAGE</textPath></text>
+  </g>
+  <circle cx="42" cy="150" r="5" fill="#0072ce"/><circle cx="258" cy="150" r="5" fill="#0072ce"/>
+</svg>

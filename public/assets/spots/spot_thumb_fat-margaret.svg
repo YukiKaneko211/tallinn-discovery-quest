@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Fat Margaret Tower">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cde8f5"/><stop offset="100%" stop-color="#f2fbff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="330" cy="70" r="34" fill="#fff" opacity=".55"/>
+  <g opacity=".5" fill="#ffffff">
+    <ellipse cx="90" cy="90" rx="46" ry="20"/><ellipse cx="130" cy="80" rx="34" ry="16"/>
+  </g>
+  
+    <path d="M120 350 v-160 a80 80 0 0 1 160 0 v160 z" fill="#e0d5c1"/>
+    <path d="M104 196 L200 110 L296 196 Z" fill="#7a3b2e"/>
+    <rect x="60" y="290" width="60" height="60" fill="#e0d5c1" opacity=".8"/>
+    <rect x="280" y="290" width="60" height="60" fill="#e0d5c1" opacity=".8"/>
+    <g fill="#fff" opacity=".7">
+      <rect x="150" y="230" width="24" height="40" rx="12"/>
+      <rect x="226" y="230" width="24" height="40" rx="12"/>
+      <rect x="188" y="290" width="24" height="60" rx="12"/>
+    </g>
+  <rect y="350" width="400" height="50" fill="#7a8b6f"/>
+  <rect y="350" width="400" height="8" fill="#93a487"/>
+</svg>

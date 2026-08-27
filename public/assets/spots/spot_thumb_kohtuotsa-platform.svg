@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Kohtuotsa Platform">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd9c2"/><stop offset="100%" stop-color="#fff2e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="330" cy="70" r="34" fill="#fff" opacity=".55"/>
+  <g opacity=".5" fill="#ffffff">
+    <ellipse cx="90" cy="90" rx="46" ry="20"/><ellipse cx="130" cy="80" rx="34" ry="16"/>
+  </g>
+  
+    <rect x="30" y="250" width="80" height="100" fill="#e9dfd0"/>
+    <path d="M22 252 L70 210 L118 252 Z" fill="#b8452f"/>
+    <rect x="130" y="220" width="70" height="130" fill="#e9dfd0"/>
+    <path d="M122 222 L165 175 L208 222 Z" fill="#b8452f"/>
+    <rect x="220" y="245" width="60" height="105" fill="#e9dfd0"/>
+    <path d="M212 247 L250 205 L288 247 Z" fill="#b8452f"/>
+    <rect x="300" y="150" width="46" height="200" fill="#e9dfd0"/>
+    <path d="M292 152 L323 95 L354 152 Z" fill="#b8452f"/>
+    <g fill="#fff" opacity=".65">
+      <rect x="52" y="280" width="18" height="30"/><rect x="150" y="255" width="18" height="30"/>
+      <rect x="240" y="278" width="18" height="30"/><rect x="314" y="190" width="18" height="30"/>
+    </g>
+  <rect y="350" width="400" height="50" fill="#7a8b6f"/>
+  <rect y="350" width="400" height="8" fill="#93a487"/>
+</svg>

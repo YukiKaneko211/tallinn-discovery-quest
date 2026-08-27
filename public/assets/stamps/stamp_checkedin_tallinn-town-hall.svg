@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Tallinn Town Hall stamp">
+  <defs>
+    <path id="arcTop" d="M 48 150 A 102 102 0 0 1 252 150"/>
+    <path id="arcBot" d="M 22 150 A 128 128 0 0 0 278 150"/>
+    <clipPath id="inner"><circle cx="150" cy="150" r="86"/></clipPath>
+    <linearGradient id="isky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe3ff"/><stop offset="100%" stop-color="#eaf6ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="146" fill="#ffffff"/>
+  <circle cx="150" cy="150" r="142" fill="none" stroke="#0072ce" stroke-width="8"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#0072ce" stroke-width="6"/>
+  <g clip-path="url(#inner)">
+    <rect x="60" y="60" width="180" height="180" fill="url(#isky)"/>
+    <g transform="translate(150 240) scale(0.44) translate(-200 -350)">
+    <rect x="70" y="200" width="260" height="150" fill="#f2e9d8"/>
+    <path d="M60 200 L200 150 L340 200 Z" fill="#c0392b"/>
+    <rect x="180" y="60" width="40" height="150" fill="#f2e9d8"/>
+    <path d="M172 62 L200 10 L228 62 Z" fill="#c0392b"/>
+    <circle cx="200" cy="14" r="7" fill="#e0b73a"/>
+    <rect x="188" y="95" width="24" height="24" rx="3" fill="#fff" opacity=".75"/>
+    <g fill="#fff" opacity=".7">
+      <rect x="100" y="240" width="26" height="46" rx="13"/>
+      <rect x="150" y="240" width="26" height="46" rx="13"/>
+      <rect x="224" y="240" width="26" height="46" rx="13"/>
+      <rect x="274" y="240" width="26" height="46" rx="13"/>
+    </g></g>
+    <rect x="60" y="212" width="180" height="30" fill="#7a8b6f"/>
+  </g>
+  <g fill="#0072ce" font-family="'M PLUS Rounded 1c', 'Trebuchet MS', sans-serif" font-weight="800" font-size="28" letter-spacing="2">
+    <text text-anchor="middle"><textPath href="#arcTop" startOffset="50%">TALLINN TOWN</textPath></text>
+    <text text-anchor="middle"><textPath href="#arcBot" startOffset="50%">HALL</textPath></text>
+  </g>
+  <circle cx="42" cy="150" r="5" fill="#0072ce"/><circle cx="258" cy="150" r="5" fill="#0072ce"/>
+</svg>

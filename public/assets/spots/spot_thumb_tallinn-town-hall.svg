@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Tallinn Town Hall">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe3ff"/><stop offset="100%" stop-color="#eaf6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="330" cy="70" r="34" fill="#fff" opacity=".55"/>
+  <g opacity=".5" fill="#ffffff">
+    <ellipse cx="90" cy="90" rx="46" ry="20"/><ellipse cx="130" cy="80" rx="34" ry="16"/>
+  </g>
+  
+    <rect x="70" y="200" width="260" height="150" fill="#f2e9d8"/>
+    <path d="M60 200 L200 150 L340 200 Z" fill="#c0392b"/>
+    <rect x="180" y="60" width="40" height="150" fill="#f2e9d8"/>
+    <path d="M172 62 L200 10 L228 62 Z" fill="#c0392b"/>
+    <circle cx="200" cy="14" r="7" fill="#e0b73a"/>
+    <rect x="188" y="95" width="24" height="24" rx="3" fill="#fff" opacity=".75"/>
+    <g fill="#fff" opacity=".7">
+      <rect x="100" y="240" width="26" height="46" rx="13"/>
+      <rect x="150" y="240" width="26" height="46" rx="13"/>
+      <rect x="224" y="240" width="26" height="46" rx="13"/>
+      <rect x="274" y="240" width="26" height="46" rx="13"/>
+    </g>
+  <rect y="350" width="400" height="50" fill="#7a8b6f"/>
+  <rect y="350" width="400" height="8" fill="#93a487"/>
+</svg>

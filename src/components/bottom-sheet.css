@@ -1,0 +1,42 @@
+.sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--color-base);
+  border-radius: 16px 16px 0 0;
+  box-shadow: var(--shadow-3);
+  display: flex;
+  flex-direction: column;
+  z-index: 700;
+  touch-action: none;
+}
+
+.sheet__peek {
+  flex: none;
+}
+
+.sheet__handle-zone {
+  display: grid;
+  place-items: center;
+  height: var(--sheet-handle-h);
+  cursor: grab;
+}
+
+.sheet__handle-zone:active {
+  cursor: grabbing;
+}
+
+.sheet__handle {
+  width: 46px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--color-weak);
+}
+
+.sheet__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  touch-action: pan-y;
+}

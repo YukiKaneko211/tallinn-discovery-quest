@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Holy Spirit Church stamp">
+  <defs>
+    <path id="arcTop" d="M 48 150 A 102 102 0 0 1 252 150"/>
+    <path id="arcBot" d="M 22 150 A 128 128 0 0 0 278 150"/>
+    <clipPath id="inner"><circle cx="150" cy="150" r="86"/></clipPath>
+    <linearGradient id="isky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e2e0ff"/><stop offset="100%" stop-color="#f7f6ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="146" fill="#ffffff"/>
+  <circle cx="150" cy="150" r="142" fill="none" stroke="#0072ce" stroke-width="8"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#0072ce" stroke-width="6"/>
+  <g clip-path="url(#inner)">
+    <rect x="60" y="60" width="180" height="180" fill="url(#isky)"/>
+    <g transform="translate(150 240) scale(0.44) translate(-200 -350)">
+    <rect x="95" y="205" width="210" height="145" fill="#efe5d5"/>
+    <path d="M85 207 L200 160 L315 207 Z" fill="#4a3f6b"/>
+    <rect x="172" y="70" width="56" height="140" fill="#efe5d5"/>
+    <path d="M162 72 L200 8 L238 72 Z" fill="#4a3f6b"/>
+    <circle cx="200" cy="120" r="24" fill="#fdf7e6" stroke="#c9a227" stroke-width="5"/>
+    <path d="M200 120 V104 M200 120 L212 128" stroke="#2b2b2b" stroke-width="4" stroke-linecap="round"/>
+    <g fill="#fff" opacity=".7">
+      <rect x="126" y="248" width="26" height="46" rx="13"/>
+      <rect x="248" y="248" width="26" height="46" rx="13"/>
+    </g></g>
+    <rect x="60" y="212" width="180" height="30" fill="#7a8b6f"/>
+  </g>
+  <g fill="#0072ce" font-family="'M PLUS Rounded 1c', 'Trebuchet MS', sans-serif" font-weight="800" font-size="28" letter-spacing="2">
+    <text text-anchor="middle"><textPath href="#arcTop" startOffset="50%">HOLY SPIRIT</textPath></text>
+    <text text-anchor="middle"><textPath href="#arcBot" startOffset="50%">CHURCH</textPath></text>
+  </g>
+  <circle cx="42" cy="150" r="5" fill="#0072ce"/><circle cx="258" cy="150" r="5" fill="#0072ce"/>
+</svg>
