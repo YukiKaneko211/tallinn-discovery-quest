@@ -1,6 +1,8 @@
 # 🗺️ Tallinn Discovery Quest
 
-## App Overview (Codex generated)
+<img height="500" alt="idea" src="https://github.com/user-attachments/assets/3279c670-ede2-42c1-9c9b-ba45161bdcc9" />
+
+## 📱 App Overview (Codex generated)
 
 A gamified, location-based stamp rally PWA for tourists in Tallinn, implemented from
 `[PRD] Tallinn Stamp Rally`. Visit landmarks, tap to collect a digital stamp, answer local
